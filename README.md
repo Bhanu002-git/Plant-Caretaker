@@ -20,7 +20,7 @@ It checks soil moisture and waters plants when required.
 - Power Supply
   
 ## Truth Table
--🔹 Truth Table
+
 InputPin 6	Input Pin 5	Input Pin 12	Input Pin 13	Output Pin 3	Output Pin 9	Output Pin 10	 Output Pin 11
 LOW (0)	    LOW (0)	    LOW (0)	      LOW (0)	      HIGH (1)	    HIGH (1)	    HIGH (1)	     HIGH (1)
 LOW (0)  	  LOW (0)	    LOW (0)	      HIGH (1)	    HIGH (1)	    HIGH (1)	    HIGH (1)	     LOW (0)
