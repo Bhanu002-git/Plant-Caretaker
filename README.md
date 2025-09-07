@@ -16,7 +16,7 @@ The **Plant Caretaker** is an Arduino-based project that automatically waters pl
 - Sensor (Pin 6) → Relay (Pin 3) → Pump 1  
 - Sensor (Pin 5) → Relay (Pin 9) → Pump 2  
 - Sensor (Pin 12) → Relay (Pin 10) → Pump 3  
-- Sensor (Pin 13) → Relay (Pin 11) → Pump 4  
+- Sensor (Pin 13) → Relay (Pin 11) → Pump 4 
 
 ---
 
