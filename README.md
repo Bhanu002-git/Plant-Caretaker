@@ -12,7 +12,7 @@ The **Plant Caretaker** is an Arduino-based project that automatically waters pl
 - If soil is **dry**, the pump for that plant turns ON until moisture returns to normal.
 - If soil is **wet**, the pump remains OFF to prevent overwatering.
 
-**Mapping in this project:**
+**Mapping in this project:** 
 - Sensor (Pin 6) → Relay (Pin 3) → Pump 1  
 - Sensor (Pin 5) → Relay (Pin 9) → Pump 2  
 - Sensor (Pin 12) → Relay (Pin 10) → Pump 3  
