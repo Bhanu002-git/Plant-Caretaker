@@ -8,7 +8,7 @@ void setup() {
     pinMode(relays[i], OUTPUT);
     digitalWrite(relays[i], HIGH); // ensure relays OFF initially (active LOW)
   }
-}
+} 
 
 void loop() {
   for (int i=0; i<4; ++i) {
