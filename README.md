@@ -2,7 +2,7 @@
 
 The **Plant Caretaker** is an Arduino-based project that automatically waters plants using soil moisture sensors and submersible pumps. It is designed to help people take care of plants even when they are busy or away from home.
 
----
+--- 
 
 ## ⚡ How It Works 
 - Soil moisture sensors (FC-28) are placed in the soil of each plant.  
