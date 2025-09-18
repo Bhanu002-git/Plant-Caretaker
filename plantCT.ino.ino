@@ -5,7 +5,7 @@ const int relays[]  = {3, 9, 10, 11};
 void setup() {
   for (int i=0; i<4; ++i) {
     pinMode(sensors[i], INPUT);
-    pinMode(relays[i], OUTPUT);
+    pinMode(relays[i], OUTPUT); 
     digitalWrite(relays[i], HIGH); // ensure relays OFF initially (active LOW)
   }
 } 
