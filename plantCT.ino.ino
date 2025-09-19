@@ -7,7 +7,7 @@ void setup() {
     pinMode(sensors[i], INPUT);
     pinMode(relays[i], OUTPUT); 
     digitalWrite(relays[i], HIGH); // ensure relays OFF initially (active LOW)
-  }
+  }  
 } 
 
 void loop() {
