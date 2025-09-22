@@ -12,7 +12,7 @@ void setup() {
 
 void loop() {
   for (int i=0; i<4; ++i) {
-    int water = digitalRead(sensors[i]); // HIGH = wet, LOW = dry (typical FC-28 D0)
+    int water = digitalRead(sensors[i]); // HIGH = wet, LOW = dry (typical FC-28 D0) 
     if (water == LOW) {                 // soil is dry -> turn pump ON
       digitalWrite(relays[i], LOW);     // active LOW: LOW = relay ON
     } else {                            // soil wet -> turn pump OFF
